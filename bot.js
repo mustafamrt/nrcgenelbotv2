@@ -1,7 +1,7 @@
 const fs=require('fs');
 const Discord=require("discord.js");
 const client=new Discord.Client();
-const db = require('quick.db')
+const db = require('nrc.db')
 const chalk = require("chalk");
 const moment = require("moment");
 const ayarlar=require("./ayarlar.json");
@@ -218,7 +218,7 @@ client.on("message", async msg => {
 client.login(ayarlar.token)
 ///////////////////////////////////////////////////////////
   client.on("ready", () => {
-  client.channels.cache.get("776728047884697620").join();
+  client.channels.cache.get("828324810216046612").join();
 }) 
 //////////////////////////////////////////////////
 
